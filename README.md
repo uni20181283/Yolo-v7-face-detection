@@ -27,7 +27,7 @@ export PYTHONPATH="${PYTHONPATH}:/path/to/yoloface/project/"
 ```
 
 ## Result example
-<img src=/https://user-images.githubusercontent.com/76513688/198210548-4bf95267-d724-48b0-861b-4ecbe67b2fdb.jpg>
-
+<!-- <img src=/https://user-images.githubusercontent.com/76513688/198210548-4bf95267-d724-48b0-861b-4ecbe67b2fdb.jpg> -->
+https://user-images.githubusercontent.com/76513688/198210548-4bf95267-d724-48b0-861b-4ecbe67b2fdb.jpg
 ## Citiation
 Thanks [deepcam-cn](https://github.com/deepcam-cn/yolov5-face) for pretrained models.
