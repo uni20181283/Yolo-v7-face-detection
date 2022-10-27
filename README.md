@@ -1,5 +1,11 @@
 # Yolo v7 Face Detection
 
+# 추가할 것들
+1. readme 깔끔하게
+2. train한 결과물 올리기
+3. 코드 편하게 사용할 수 있도록 수정 후 올리기
+
+
 ## Description
 The project is a wrap over [yolo v7](https://https://github.com/WongKinYiu/yolov7) repo.
 Model detects faces on images and returns bounding boxes.
