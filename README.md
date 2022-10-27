@@ -25,20 +25,9 @@ If you want to use model class outside root folder, export it into you PYTHONPAT
 ```bash
 export PYTHONPATH="${PYTHONPATH}:/path/to/yoloface/project/"
 ```
-## Other pretrained models
-You can use any model from [yolov5-face](https://github.com/deepcam-cn/yolov5-face) repo. Default models are saved as entire torch module and are bound to the specific classes and the exact directory structure used when the model was saved by authors. To make model portable and run it via my interface you must save it as pytorch state_dict and put new weights in `weights/` folder. Example below:
-```python
-model = torch.load('weights/yolov5m-face.pt', map_location='cpu')['model']
-torch.save(model.state_dict(),'path/to/project/weights/yolov5m_state_dict.pt')
-```
-Then when creating YoloDetector class object, pass new model name and corresponding yaml config from `models/` folder as class arguments.
-Example below:
-```python
-model = YoloFace(weights_name='yolov5m_state_dict.pt',config_name='yolov5m.yaml',target_size=720)
-```
 
 ## Result example
-<img src="/results/result_example.jpg" width="600"/>
+<img src=/>
 
 ## Citiation
 Thanks [deepcam-cn](https://github.com/deepcam-cn/yolov5-face) for pretrained models.
